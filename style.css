@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  font-family: Hachi Maru Pop;
+  font-size: 70px;
+  font-weight: 400;
+  text-align: center;
+}
+h5 {
+   font-size: 30px;
+   text-align: center;
+}
+p {
+  font-size: 26px;
+  color: #545454;
+}
+
+.container {
+  width: 100%;
+}
+.header {
+  background: linear-gradient(to bottom right, #795742, #242324);
+}
+
+.header__logo-menu {
+  padding: 30px 50px 50px 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.menu__list {
+  display: flex;
+}
+
+.menu__list-item {
+  list-style-type: none;
+}
+
+.menu__link {
+  margin: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Manrope;
+font-size: 25px;
+font-weight: 400;
+}
+
+.menu__link--active {
+  margin: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Manrope;
+font-size: 25px;
+font-weight: 400;
+border-bottom:4px solid #F1CDB3;
+padding-bottom: 2px;
+}
+
+
+
+
+.header__logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header__logo-name {
+  color: #d89869;
+  font-family: Manrope;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.header__logo-description {
+  color: #ffffff;
+  font-family: Manrope;
+font-size: 18px;
+font-weight: 400;
+
+}
+
+.header__picture-description {
+  display: flex;
+  align-items: center;
+}
+
+.header-picture {
+  width: 800px;
+}
+
+.header__title {
+  margin-left: 40px;
+  margin-bottom: 40px;
+  font-family: Hachi Maru Pop;
+  font-size: 70px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.header__text {
+  margin-left: 40px;
+  margin-bottom: 160px;
+color: #c5c5c5;
+font-size: 26px;
+}
+
+.header__button {
+  margin-left: 160px;
+  width: 319px;
+  height: 74px;
+  border: none;
+  border-radius: 45px;
+  background: #F1CDB3;
+  font-size: 24px;
+  transition: transform 0.3s ease;
+}
+.header__button:hover {
+  transform: scale(1.03);
+}
+
+ .about {
+}
+
+.about__inner-picture {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding: 40px;
+}
+
+.about__inner {
+ 
+}
+
+.about__picture {
+}
+
+.about-picture {
+  width: 740px;
+  padding: 70px;
+}
+
+.counter {
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+.counter__counter {
+  display: flex;
+  justify-content: space-around;
+}
+
+.counter__name {
+  padding-bottom: 80px;
+  display: flex;
+justify-content: center;
+}
+
+.counter__digital {
+font-size: 100px;
+display: flex;
+justify-content: center;
+}
+
+.counter__titles {
+  font-size: 40px;
+}
+
+
+.carousel__slider {
+position: relative;
+padding: 0px 90px;
+}
+.slick-list {
+  overflow: hidden;
+}
+.slick-track{
+  display: flex;
+}
+.slick-arrow {
+position: absolute;
+top: 50%;
+z-index: 10;
+font-size: 0;
+width: 50px;
+height: 50px;
+}
+.slick-arrow.slick-prev {
+  left: 0;
+  border: none;
+  background: url('./left-arrow-backup-2-svgrepo-com.svg') 0 0 / 100% no-repeat;
+}
+.slick-arrow.slick-next {
+  right: 0;
+  border: none;
+  background: url('./right-arrow-backup-2-svgrepo-com.svg') 0 0 / 100% no-repeat;
+}
+
+
+.slide__item {
+display: flex;
+justify-content: center;
+}
+.card {
+  display: flex;
+justify-content: center;
+}
+.card-body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.btn.btn-primary {
+  font-size: 19px;
+  width: 260px;
+  height: 74;
+  background-color: white;
+  color: black;
+  border-radius:45px ;
+  border:4px solid #F1CDB3;
+  transition: border-color 0.8s ease;
+  transition: background-color 0.8s ease;
+}
+.btn.btn-primary:hover {
+  border-color: #e4c2aa; 
+  background-color: #F1CDB3;
+  color: black;
+}
+.carousel__button {
+display: flex;
+justify-content: center;
+}
+.carousel-button {
+  margin: 60px;
+  width: 319px;
+  height: 74px;
+  border: none;
+  border-radius: 45px;
+  background: #F1CDB3;
+  font-size: 24px;
+  transition: transform 0.3s ease;
+}
+.carousel-button:hover {
+  transform: scale(1.03);
+}
+
+
+.help {
+}
+.help_text-picture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.help__picture {
+  
+}
+
+.help__button {
+}
+
+.footer {
+} 
