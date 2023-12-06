@@ -51,8 +51,8 @@ window.onload = function() {
 $(document).ready(function(){
   $('.carousel__slider').slick({
     slidesToShow:3,
-    // autoplay:true,
-    // autoplaySpeed: 2000,
+    autoplay:true,
+    autoplaySpeed: 2000,
   });
 });
 
