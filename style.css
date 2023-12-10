@@ -10,6 +10,15 @@ h2 {
   font-weight: 400;
   text-align: center;
 }
+h3 {
+  color: #ffffff;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  font-family: Hachi Maru Pop;
+  font-size: 38px;
+  font-weight: 300;
+  text-align: center;
+}
 h5 {
    font-size: 30px;
    text-align: center;
@@ -54,7 +63,9 @@ p {
 font-size: 25px;
 font-weight: 400;
 }
-
+.menu__link:hover {
+ color: #ffffff;
+}
 .menu__link--active {
   margin: 20px;
   color: #ffffff;
@@ -65,8 +76,9 @@ font-weight: 400;
 border-bottom:4px solid #F1CDB3;
 padding-bottom: 2px;
 }
-
-
+.menu__link--active:hover {
+  color: #ffffff;
+ }
 
 
 .header__logo {
@@ -194,18 +206,18 @@ position: absolute;
 top: 50%;
 z-index: 10;
 font-size: 0;
-width: 50px;
-height: 50px;
+width: 30px;
+height: 30px;
 }
 .slick-arrow.slick-prev {
   left: 0;
   border: none;
-  background: url('./left-arrow-backup-2-svgrepo-com.svg') 0 0 / 100% no-repeat;
+  background: url('./pictures/left-arrow-backup-2-svgrepo-com.svg') 0 0 / 100% no-repeat;
 }
 .slick-arrow.slick-next {
   right: 0;
   border: none;
-  background: url('./right-arrow-backup-2-svgrepo-com.svg') 0 0 / 100% no-repeat;
+  background: url('./pictures/right-arrow-backup-2-svgrepo-com.svg') 0 0 / 100% no-repeat;
 }
 
 
@@ -243,7 +255,8 @@ display: flex;
 justify-content: center;
 }
 .carousel-button {
-  margin: 60px;
+  margin-top: 60px;
+  margin-bottom: 100px;
   width: 319px;
   height: 74px;
   border: none;
@@ -269,8 +282,74 @@ justify-content: center;
   
 }
 
+.help__card {
+display: flex;
+flex-direction: row-reverse;
+justify-content: center;
+}
+
 .help__button {
+  width: 535px;
+  height: 76px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  /* border: none; */
+  border-radius: 16px;
+  background: #F1CDB3;
+  font-size: 26px;
+  border:4px solid #F1CDB3;
+  transition: border-color 0.8s ease;
+ 
+}
+.help__button:hover {
+  border-color: #d8b8a2; 
+}
+
+.credit-card {
+width: 100px;
+padding-right: 30px;
 }
 
 .footer {
+  background: linear-gradient(to bottom right, #795742, #242324);
 } 
+.footer__questions-address-picture {
+  display: flex;
+  flex-direction: row;
+    justify-content: center;
+}
+.footer__questions {
+  padding-left: 40px;
+  padding-right: 40px;
+display: flex;
+justify-content: space-evenly;
+ flex-direction: column;
+}
+.questions-text-svg{
+  display: flex;
+}
+.questions-text {
+  margin-left: 20px;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+
+.footer__address {
+  padding-left: 40px;
+  padding-right: 40px;
+    display: flex;
+    justify-content: space-evenly;
+     flex-direction: column;
+}
+.address-text-svg{
+  display: flex;
+}
+.address-text {
+  margin-left: 20px;
+  font-size: 40px;
+  color: #ffffff;
+}
+.footer-picture {
+  width: 410px;
+}
