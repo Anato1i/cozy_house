@@ -29,7 +29,6 @@ p {
 }
 
 .container {
-  width: 100%;
 }
 .header {
   background: linear-gradient(to bottom right, #795742, #242324);
@@ -79,7 +78,16 @@ padding-bottom: 2px;
 .menu__link--active:hover {
   color: #ffffff;
  }
-
+ @media (max-width:1200px) {
+  .menu__link,.menu__link--active {
+    font-size: 20px;
+  }
+}
+ @media (max-width:1000px) {
+  .menu__link,.menu__link--active {
+    font-size: 18px;
+  }
+}
 
 .header__logo {
   display: flex;
@@ -96,11 +104,11 @@ padding-bottom: 2px;
 
 .header__logo-description {
   color: #ffffff;
-  font-family: Manrope;
+  
 font-size: 18px;
 font-weight: 400;
-
 }
+
 
 .header__picture-description {
   display: flex;
@@ -108,7 +116,8 @@ font-weight: 400;
 }
 
 .header-picture {
-  width: 700px;
+  width: 1800px;
+  max-width: 100%
 }
 
 .header__title {
@@ -330,7 +339,7 @@ justify-content: space-evenly;
 }
 .questions-text {
   margin-left: 20px;
-  font-size: 40px;
+  font-size: 30px;
   color: #ffffff;
 }
 
@@ -347,9 +356,14 @@ justify-content: space-evenly;
 }
 .address-text {
   margin-left: 20px;
-  font-size: 40px;
+  font-size: 30px;
   color: #ffffff;
 }
+.footer__picture{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
 .footer-picture {
-  width: 410px;
+  width: 320px;
 }
