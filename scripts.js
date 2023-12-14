@@ -63,6 +63,28 @@ $(document).ready(function(){
     ]
   });
 });
+$(document).ready(function(){
+  $('.catalog__slider-card').slick({
+    slidesToShow:3,
+    // autoplay:true,
+    // autoplaySpeed: 2000,
+    rows:2,
+    responsive: [
+      {
+        breakpoint: 1000,
+        settings: {
+          slidesToShow: 2
+        }
+      },
+      {
+        breakpoint: 700,
+        settings: {
+          slidesToShow: 1
+        }
+      }
+    ]
+  });
+});
 
 
 

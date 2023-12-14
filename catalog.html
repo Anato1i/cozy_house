@@ -18,180 +18,124 @@
     <title>Cozy House</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header__catalog">
       <div class="container">
         <div class="header__logo-menu">
           <div class="header__logo">
             <h1 class="header__logo-name">Cozy House</h1>
-            <p class="header__logo-description">Приют для собак</p>
+            <p class="header__logo-description-catalog">Приют для собак</p>
           </div>
           <div class="menu">
             <nav>
               <ul class="menu__list">
                 <li class="menu__list-item">
-                  <a class="menu__link--active" href="./">Про приют</a>
+                  <a class="menu__link-catalog" href="./">Про приют</a>
                 </li>
                 <li class="menu__list-item">
-                  <a class="menu__link" href="./catalog.html">Выбери друга</a>
+                  <a class="menu__link-catalog--active" href="./catalog.html"
+                    >Выбери друга</a
+                  >
                 </li>
                 <li class="menu__list-item">
-                  <a class="menu__link" href="#">Как помочь</a>
+                  <a class="menu__link-catalog" href="#">Как помочь</a>
                 </li>
                 <li class="menu__list-item">
-                  <a class="menu__link" href="#">Контакты</a>
+                  <a class="menu__link-catalog" href="#">Контакты</a>
                 </li>
               </ul>
             </nav>
           </div>
         </div>
-        <div class="header__picture-description">
-          <div class="header__description">
-            <h1 class="header__title">Не только людям нужен дом</h1>
-            <p class="header__text">
-              Мы предлагаем дать шанс маленькому и милому щенку с очень широким
-              и открытым сердцем. Он или она будет любить Вас больше всех на
-              свете, вот увидите!
-            </p>
-            <a href="#">
-              <button class="header__button">Найти друга</button>
-            </a>
-          </div>
-          <div class="header__picture">
-            <img
-              class="header-picture"
-              src="./pictures/mage-from-rawpixel-id-12086973-png 1.png"
-              alt=""
-            />
-          </div>
-        </div>
       </div>
     </header>
-    <section class="about">
-      <div class="container">
-        <div class="about__inner-picture">
-          <div class="about__inner">
-            <h2>О нашем приюте</h2>
-            <p>
-              В настоящее время у нас на руках 121 собака, и статистика
-              показывает, что только 20% из них найдут семью. Остальные
-              продолжат жить с нами и будут ждать счастливого шанса стать горячо
-              любимыми. Мы кормим наших питомцев лучшими кормами и следим за
-              тем, чтобы они не болели, чувствовали себя хорошо (в том числе
-              психологически) и комфортно. Нас поддерживают 87 волонтеров и 28
-              сотрудников различного уровня квалификации. Около 12% животных
-              забирают сотрудники приюта. Заботясь о животных, они привязываются
-              к домашним животным и вряд ли когда-нибудь оставлял их в покое
-            </p>
+<section class="catalog">
+  <div class="container">
+    <div class="catalog__slider-card">
+      
+        <div class="slide__item">
+          <div class="card" style="width: 18rem">
+            <img src="./pictures/djonny.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Джонни</h5>
+              <a href="#" class="btn btn-primary">Узнать больше</a>
+            </div>
           </div>
-          <div class="about__picture">
+        </div>
+        <div class="slide__item">
+          <div class="card" style="width: 18rem">
+            <img src="./pictures/ludvig.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Людвиг</h5>
+              <a href="#" class="btn btn-primary">Узнать больше</a>
+            </div>
+          </div>
+        </div>
+        <div class="slide__item">
+          <div class="card" style="width: 18rem">
             <img
-              class="about-picture"
-              src="./pictures/—Pngtree—pair small german shepherd dog_13271422 1.png"
-              alt=""
+              src="./pictures/pugovka.png"
+              class="card-img-top"
+              alt="..."
             />
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="counter">
-      <div class="container">
-        <div class="counter__heder-counter">
-          <h2 class="counter__name">Приют в цифрах</h2>
-          <div class="counter__counter">
-            <div class="counter-employees">
-              <p class="counter__digital">
-                <span id="employeesCount">30</span>+
-              </p>
-              <p class="counter__titles">Сотрудники приюта</p>
-            </div>
-            <div class="counter-experience">
-              <p class="counter__digital">
-                <span id="experienceYears">10</span>+
-              </p>
-              <p class="counter__titles">Опыт работы</p>
-            </div>
-            <div class="counter-children">
-              <p class="counter__digital">
-                <span id="childrenCount">100</span>+
-              </p>
-              <p class="counter__titles">Воспитанники</p>
+            <div class="card-body">
+              <h5 class="card-title">Пуговка</h5>
+              <a href="#" class="btn btn-primary">Узнать больше</a>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="carousel">
-      <div class="container">
-        <div class="carousel__titles">
-          <h2>Наши друзья, которые ищут дом</h2>
-        </div>
-        <div class="carousel__slider">
-          <div class="slide__item">
-            <div class="card" style="width: 18rem">
-              <img src="./pictures/djonny.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Джонни</h5>
-                <a href="#" class="btn btn-primary">Узнать больше</a>
-              </div>
-            </div>
-          </div>
-          <div class="slide__item">
-            <div class="card" style="width: 18rem">
-              <img src="./pictures/ludvig.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Людвиг</h5>
-                <a href="#" class="btn btn-primary">Узнать больше</a>
-              </div>
-            </div>
-          </div>
-          <div class="slide__item">
-            <div class="card" style="width: 18rem">
-              <img
-                src="./pictures/pugovka.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Пуговка</h5>
-                <a href="#" class="btn btn-primary">Узнать больше</a>
-              </div>
-            </div>
-          </div>
-          <div class="slide__item">
-            <div class="card" style="width: 18rem">
-              <img src="./pictures/markiz.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Маркиз</h5>
-                <a href="#" class="btn btn-primary">Узнать больше</a>
-              </div>
+        <div class="slide__item">
+          <div class="card" style="width: 18rem">
+            <img src="./pictures/markiz.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Маркиз</h5>
+              <a href="#" class="btn btn-primary">Узнать больше</a>
             </div>
           </div>
         </div>
-        <div class="carousel__button">
-          <a href="#">
-            <button class="carousel-button">Смотреть всех >>></button>
-          </a>
+        <div class="slide__item">
+          <div class="card" style="width: 18rem">
+            <img src="./pictures/djonny.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Джонни</h5>
+              <a href="#" class="btn btn-primary">Узнать больше</a>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
-    <section class="help">
-      <div class="container">
-        <div class="help_text-picture">
-          <h2>Как вы можете помочь нашему приюту</h2>
-          <img class="help__picture" src="./pictures/help.png" alt="" />
+        <div class="slide__item">
+          <div class="card" style="width: 18rem">
+            <img src="./pictures/ludvig.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Людвиг</h5>
+              <a href="#" class="btn btn-primary">Узнать больше</a>
+            </div>
+          </div>
         </div>
-        <div class="help__card">
-          <button class="help__button">
+        <div class="slide__item">
+          <div class="card" style="width: 18rem">
             <img
-              class="credit-card"
-              src="./pictures/credit-card-svgrepo-com.svg"
-              alt=""
+              src="./pictures/pugovka.png"
+              class="card-img-top"
+              alt="..."
             />
-            0000 0000 0000 0000
-          </button>
+            <div class="card-body">
+              <h5 class="card-title">Пуговка</h5>
+              <a href="#" class="btn btn-primary">Узнать больше</a>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+        <div class="slide__item">
+          <div class="card" style="width: 18rem">
+            <img src="./pictures/markiz.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Маркиз</h5>
+              <a href="#" class="btn btn-primary">Узнать больше</a>
+            </div>
+          </div>
+        </div>
+      
+    </div>
+  </div>
+</section>
     <footer class="footer">
       <div class="container">
         <div class="footer__questions-address-picture">
