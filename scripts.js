@@ -53,6 +53,14 @@ $(document).ready(function(){
     slidesToShow:3,
     autoplay:true,
     autoplaySpeed: 2000,
+    responsive: [
+      {
+        breakpoint: 1000,
+        settings: {
+          slidesToShow: 1
+        }
+      }
+    ]
   });
 });
 
