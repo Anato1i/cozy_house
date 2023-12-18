@@ -502,6 +502,7 @@ p {
   align-items: flex-end;
 }
 .address-text {
+  margin-bottom: 0;
   margin-left: 20px;
   font-size: 30px;
   color: #ffffff;
@@ -531,14 +532,24 @@ p {
 }
 @media (max-width: 500px) {
   svg {
-    width: 25px;
+    width: 55px;
   }
 }
 
 
-/* страница каталог */
-/* .catalog__card {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-} */
+.popup-card {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+}
+
+.popup-card img {
+  max-width: 100%;
+  height: auto;
+}

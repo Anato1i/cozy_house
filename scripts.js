@@ -62,10 +62,19 @@ $(document).ready(function(){
       }
     ]
   });
+  $('.carousel__slider').on('click', '.slick-slide', function(){
+    var imgSrc = $(this).find('img').attr('src');
+    $('#popupCard img').attr('src', imgSrc);
+    $('#popupCard').fadeIn();
 });
+});
+function closePopup() {
+  $('#popupCard').fadeOut();
+}
 $(document).ready(function(){
   $('.catalog__slider-card').slick({
     slidesToShow:3,
+    // dots: true ,
     // autoplay:true,
     // autoplaySpeed: 2000,
     rows:2,
@@ -88,11 +97,4 @@ $(document).ready(function(){
 
 
 
-// $('.carousel__slider').slick({
-//   slidesToShow: 3,
-//   slidesToScroll: 1,
-//   autoplay: true,
-//   autoplaySpeed: 2000,
-//   // Другие настройки по вашему усмотрению
-// });
 
